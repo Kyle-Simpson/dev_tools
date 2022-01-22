@@ -17,6 +17,11 @@ build_env:
 	conda env list
 
 
+install:
+	@echo "Installing packages into ${CONDA_ENV_PATH}
+	# use preferred installer (poetry, pip, conda, etc.)
+
+
 format: # Run the code formatter and import sorter
 	black $(LOCATIONS)
 	isort -rc $(LOCATIONS)
