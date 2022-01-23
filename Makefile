@@ -25,7 +25,7 @@ install:
 format: # Run the code formatter and import sorter
 	black $(LOCATIONS)
 	isort -rc $(LOCATIONS)
-	@echo "Ignore, Created by Makefile, `date`" > $@
+	@echo "Ignore, Created by Makefile, `date`" > $@
 
 
 safety_check: # Run safety check
@@ -54,6 +54,6 @@ automated_tests: # Run all the tests that can be run "in automation" (i.e. on Je
 clean:             # Clean up files/services produced by make system
 	@echo "Cleaning..."
 	@rm -rf $(OUTPUT_DIR)
-	@rm -rf format lint typecheck unit doc deploy_doc deploy_package .pytest_cache .pytype .coverage .lint
+	@rm -rf format lint typecheck .pytest_cache .pytype .coverage.ui .lint
 	@rm -rf __pycache__ */__pycache__ */*/__pycache__ */*/*/__pycache__
 
