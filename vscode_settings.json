@@ -1,0 +1,59 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    // Testing
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.cwd": "${workspaceFolder}",
+    "python.envFile": "${workspaceFolder}/.env",
+    // Linting
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.maxNumberOfProblems": 1000,
+    // Editors
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "editor.rulers": [
+        94
+    ],
+    // Formatting
+    "python.formatting.provider": "black",
+    "editor.detectIndentation": false,
+    // Skip confirmation when moving/deleting files
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    // Files to exclude from sidebar
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        ".pytest_cache": true,
+        ".pytype": true,
+        "**/*.egg-info": true,
+        ".coverage": true
+    },
+    // Docstring generator
+    "autoDocstring.includeExtendedSummary": true,
+    // SSH remotes
+    "remote.SSH.remotePlatform": {
+    },
+    "remote.SSH.configFile": "H:\\.ssh\\config",
+    "workbench.editor.untitled.hint": "hidden",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "FLAG",
+        "[ ]",
+        "[x]",
+        "NOTE",
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "update.mode": "start",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.terminal.activateEnvironment": false
+}
