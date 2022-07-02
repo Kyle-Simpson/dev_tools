@@ -17,6 +17,7 @@ Minimum required programs / applications for setting up a development workstatio
 - [Chrome](https://www.google.com/chrome/downloads/)
 - [Slack](https://slack.com/intl/en-in/downloads/mac)
 - [Spotify](https://www.spotify.com/us/download/mac/)
+- [Zoom](https://zoom.us/download)
 - [Visual Studio Code](https://code.visualstudio.com/download)
     - Extensions to install:
         - Python
@@ -27,7 +28,7 @@ Minimum required programs / applications for setting up a development workstatio
 - [iTerm2](https://iterm2.com/)
     - [Homebrew](https://brew.sh/)
     - [PowerLevel 10k](https://github.com/romkatv/powerlevel10k)
-        - TODO: note how to expand prompt elements to full length
+        - After installing, replace the generated `.p10k.zsh` file with the one in this repo
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - Optional:
     - [Big IP Edge Client](https://softy.cac.washington.edu/HuskyOnNet/)
