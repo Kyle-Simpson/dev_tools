@@ -30,6 +30,7 @@ Minimum required programs / applications for setting up a development workstatio
     - [PowerLevel 10k](https://github.com/romkatv/powerlevel10k)
         - After installing, replace the generated `.p10k.zsh` file with the one in this repo
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- [Docker](https://docs.docker.com/desktop/mac/install/)
 - Optional:
     - [Big IP Edge Client](https://softy.cac.washington.edu/HuskyOnNet/)
 
